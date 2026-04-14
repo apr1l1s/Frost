@@ -1,0 +1,82 @@
+# ====================== .NET / Build ======================
+**/bin/
+**/obj/
+**/out/
+**/publish/
+**/AppPackages/
+**/Debug/
+**/Release/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ====================== Rider / JetBrains ======================
+.idea/
+*.sln.iml
+*.DotSettings.user
+*.DotSettings
+
+# Rider caches и временные файлы
+_Rider/
+**/.idea/.idea.*/
+**/.idea/inspectionProfiles/
+**/.idea/caches/
+**/.idea/libraries/
+
+# ====================== Visual Studio (на всякий) ======================
+.vs/
+.vscode/
+*.vspscc
+*.vssscc
+
+# ====================== NuGet ======================
+packages/
+*.nupkg
+*.snupkg
+**/packages.lock.json
+
+# ====================== Entity Framework ======================
+**/Migrations/**/DesignTime*
+**/EfMigrations/**
+
+# ====================== Logs & Data ======================
+*.log
+logs/
+**/logs
+*.db
+*.sqlite
+*.sqlite3
+**/Data/*.db
+**/Data/*.sqlite
+
+# ====================== Secrets & Config ======================
+appsettings.*.json
+appsettings.Local.json
+appsettings.Development.json
+secrets.json
+*.pfx
+*.pem
+*.key
+
+# ====================== Tests & Coverage ======================
+**/TestResults/
+**/coverage/
+*.coverage
+*.cobertura.xml
+*.opencover.xml
+
+# ====================== Other ======================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+node_modules/
+**/wwwroot/lib/
+**/ClientApp/node_modules/
+
+# ====================== Temporary ======================
+*.tmp
+*.temp
+*.cache
