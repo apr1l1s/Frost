@@ -1,0 +1,112 @@
+﻿# ==================== .NET / C# ====================
+# Build results
+**/bin/
+**/obj/
+**/out/
+**/Build/
+**/Publish/
+
+# User-specific files
+*.user
+*.rsuser
+*.suo
+*.sln.bak
+*.userprefs
+*.slnx
+
+# Visual Studio
+.vs/
+.vscode/
+**/.idea/          # Rider
+**/*.csproj.user
+**/*.dbproj.user
+**/*.fsproj.user
+
+# NuGet
+packages/
+*.nupkg
+*.snupkg
+**/packages.lock.json
+
+# .NET CLI
+*.dotnet
+*.nuget
+project.lock.json
+nupkg/
+
+# Logs and databases
+*.log
+*.logs
+*.sqlite
+*.sqlite3
+*.db
+**/Logs/
+**/logs/
+
+# Temporary files
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# ==================== IDE ====================
+# JetBrains Rider / ReSharper
+_ReSharper*/
+_ReSharper.*
+**/*.DotSettings.user
+**/*.DotSettings
+
+# Visual Studio Code
+.history/
+.ionide/
+
+# ==================== Testing ====================
+**/TestResults/
+**/TestResults.*/*
+coverage/
+*.coverage
+*.coveragehtml
+**/coverlet/
+**/lcov.info
+
+# ==================== Docker & Containers ====================
+.docker/
+.dockerignore
+
+# ==================== Other common ====================
+# Node.js (если используешь frontend или tools)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python (если есть скрипты)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Azure / Cloud
+*.publishsettings
+*.azurePubxml
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+appsettings.*.local.json
+secrets.json
+
+# ==================== Optional (раскомментируй если нужно) ====================
+# # Build folders for specific projects
+# **/artifacts/
+# **/artifacts.*
+
+# # Web publish profiles
+# **/Properties/PublishProfiles/
+
+# # EF Core migrations backup
+# **/Migrations/*_*.designer.cs
+
+# # Minified JS/CSS (если собираешь)
+# **/wwwroot/**/*.min.js
+# **/wwwroot/**/*.min.css
